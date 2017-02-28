@@ -1,6 +1,9 @@
 package main
-import "fmt"
+import (
+    "fmt"
+    "fossrec/ren/gofu/adhockery/stringutil"
+)
 
 func main() {
-    fmt.Println("Hello, 世界")
+    fmt.Println(stringutil.Reverse("!dlrow elurc ,eybdooG"))
 }
